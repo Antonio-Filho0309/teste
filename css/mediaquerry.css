@@ -1,0 +1,388 @@
+@charset "UTF-8";
+
+/* Celular */
+@media screen and (max-width: 600px){
+       .nav-link{
+        margin-left: -60px;
+       justify-content: center;
+    }
+
+    #btn-fds{
+        margin-left: 89px;
+    }
+
+    #grafico{
+        
+        width: 400px;
+        height: 500px;
+      }
+      
+    .nav-link{
+        margin-left: -60px;
+       justify-content: center;
+    }
+
+    .btn{
+        margin-left: 39%;
+    }
+
+    #maisalugado{
+       width: 340px;
+       margin-left: 10%;
+       
+      }
+      
+      #livroalugado{
+       display: none;
+      }
+      
+      div#top{
+       text-align: center;
+      }
+
+      #container3{
+        width: 340px;
+        margin-left: 10%;
+        margin-top: 50px;
+      }
+
+      #livros{
+        display: none;
+      }
+
+      #container4{
+        width: 340px;
+        margin-left: 10%;
+        margin-top: 50px;
+      }
+      
+      #lendolivro{
+        display: none;
+      }
+
+      .box-search{
+        width: 300px;
+        margin-left: 80px;
+        margin-top: 50px;
+      }
+
+      a.btn-new{
+        margin-left: 46%;
+      }
+
+      #btn-livro{
+        margin-left: 46%;
+    }
+
+    #caixa{
+      margin-left: 1%;
+    }
+    
+
+  
+
+} 
+/* Tablet */
+@media screen and (min-width: 601px) and (max-width: 900px){
+   
+    .nav-link{
+        margin-left: -60px;
+       justify-content: center;
+    }
+
+    .btn{
+        margin-left: 39%;
+    }
+
+    #maisalugado{
+       width: 340px;
+       margin-left: 20%;
+       
+      }
+      
+      #livroalugado{
+       display: none;
+      }
+      
+      div#top{
+       text-align: center;
+      }
+
+      #container3{
+        width: 340px;
+        margin-left: 20%;
+        margin-top: 50px;
+      }
+
+      #livros{
+        display: none;
+      }
+
+      #container4{
+        width: 340px;
+        margin-left: 20%;
+        margin-top: 50px;
+      }
+      
+      #lendolivro{
+        display: none;
+      }
+      .box-search{
+        width: 300px;
+        margin-left: 120px;
+        margin-top: 50px;
+      }
+
+      a.btn-new{
+        margin-left: 56%;
+      }
+
+      #btn-livro{
+        margin-left: 56%;
+    }
+
+    #caixa{
+      margin-left: 20%;
+    }
+    
+
+    
+
+}
+@media screen and (min-width: 901px) and (max-width: 997px){
+    .nav-link{
+        margin-left: -60px;
+       justify-content: center;
+    }
+
+    .btn{
+       margin-left: 41%;
+    }
+    
+
+
+    #maisalugado{
+       width: 340px;
+       margin-left: 30%;
+       
+      }
+      
+      #livroalugado{
+       display: none;
+      }
+      
+      div#top{
+       text-align: center;
+      }
+
+      #container3{
+        width: 340px;
+        margin-left: 30%;
+        margin-top: 50px;
+      }
+
+      #livros{
+        display: none;
+      }
+
+      #container4{
+        width: 340px;
+        margin-left: 30%;
+        margin-top: 50px;
+      }
+      
+      #lendolivro{
+        display: none;
+      }
+
+      .box-search{
+        margin-left: 160px;
+        margin-top: 50px;
+      }
+
+      a.btn-new{
+        margin-left: 640px;
+      }
+
+      #btn-livro{
+        margin-left: 74.6%;
+    }
+
+    #caixa{
+      margin-left: 20%;
+    }
+      
+      
+   
+}
+@media screen and (min-width: 998px) and (max-width: 1279px){
+    nav a{
+        margin-left: 20px;
+      }
+
+      .nav-link{
+        margin-left: 10px;
+    }
+
+    #maisalugado{
+        width: 340px;
+        margin-left: 30%;
+        
+       }
+       
+       #livroalugado{
+        display: none;
+       }
+       
+       div#top{
+        text-align: center;
+       }
+ 
+       #container3{
+         width: 340px;
+         margin-left: 30%;
+         margin-top: 50px;
+       }
+ 
+       #livros{
+         display: none;
+       }
+ 
+       #container4{
+         width: 340px;
+         margin-left: 30%;
+         margin-top: 50px;
+       }
+       
+       #lendolivro{
+         display: none;
+       }
+
+       .box-search{
+        margin-left: 270px;
+        margin-top: 50px;
+      }
+
+      a.btn-new{
+        margin-left: 73%;
+      }
+
+      #btn-livro{
+        margin-left: 76%;
+      }
+
+      #caixa{
+        margin-left: 20%;
+      }
+        
+
+
+
+}
+@media screen and (min-width: 1280px) and (max-width: 1800px){
+    #navbarSupportedContent{
+        padding-left: 2px;
+      
+      }
+
+      #maisalugado{
+        margin-left: 50px;
+        margin-top: 40px;
+      }
+      
+      #livroalugado{
+        margin-left: 370px ;
+        margin-top: -30px;
+      }
+      
+      div#top{
+       text-align: left;
+      }
+      
+      #container3{
+        margin-left: 740px;
+      }
+      
+      #livros{
+        margin-left: 360px;
+        margin-top: -90px;
+      }
+
+      #container4{
+        position: relative;
+        margin-left: 400px;
+        margin-top: 30px;
+      }
+      
+      #lendolivro{
+        margin-left: 350px;
+        margin-top: -180px;
+      }
+
+      .box-search{
+        margin-left: 360px;
+        margin-top: 50px;
+      }
+
+      a.btn-new{
+        margin-left: 78%;
+      }
+
+      #btn-livro{
+        margin-left: 76%;
+      }
+
+      #caixa{
+        margin-left: 20%;
+      }
+        
+   
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1860px){
+    #navbarSupportedContent{
+        padding-left: 280px;
+      
+      }
+
+      
+      #maisalugado{
+        margin-left: 50px;
+        margin-top: 40px;
+      }
+      
+      #livroalugado{
+        margin-left: 370px ;
+        margin-top: -30px;
+      }
+      
+      div#top{
+       text-align: left;
+      }
+      
+      #container3{
+        margin-left: 740px;
+      }
+      
+      #livros{
+        margin-left: 360px;
+        margin-top: -90px;
+      }
+
+      #container4{
+        position: relative;
+        margin-left: 400px;
+        margin-top: 30px;
+      }
+      
+      #lendolivro{
+        margin-left: 350px;
+        margin-top: -180px;
+      }
+
+      #caixa{
+        margin-left: 20%;
+      }
+        
+}
+

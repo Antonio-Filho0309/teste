@@ -1,0 +1,71 @@
+.titulo-pag{
+    margin: 10px 20px;
+}
+  
+a.btn-new{
+    padding: 10px;
+    text-decoration:none;
+    border: 1px solid rgb(0, 89, 255);
+    width: 100px;
+    margin-left: 84%;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.btn-new:hover,.btn-new:focus{
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+  
+.header-pag{
+  display: flex;
+}
+.box-search{
+    position: relative;
+    margin-left: 400px;
+    top: 7px;
+}
+#barra-search{
+    width: 380px;
+    padding: 8px;
+    border-radius: 12px 0px 0px 12px;
+    border: 1px solid #a8a8a8;
+}
+
+#lupa{
+    border: none;
+    background-color: rgb(0, 89, 255);
+    width: 45px;
+    border-radius: 0px 12px 12px 0px;
+
+}
+
+#btn-livro{
+    margin-left: 86.6%;
+}
+
+#btn-editora{
+    margin-left: 1260px;
+}
+
+#bt1{
+    margin-left: 2px;
+    margin-right: 10px;
+    padding: 6px;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+#bt1:hover{
+    background-color: rgb(0, 102, 204);
+}
+
+#bt2{          
+    padding: 6px;
+   background-color:  rgb(255, 98, 98);
+    border-radius: 4px;
+    transition: 0.5s;
+}
+#bt2:hover{
+    background-color: rgb(253, 0, 0);
+}

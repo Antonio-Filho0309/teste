@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+#btn-fechar:hover,
+#btn-fechar:focus {
+  transform: translateX(1px) scale(1.2);
+  transition: 0.5s;
+}
+
+.modal{
+  background-color: rgba(71, 71, 71, 0.719);
+  backdrop-filter: blur(3px);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  
+}
+
+.box{
+  margin-top: 120px;
+  max-width: 420px;
+  height: 620px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto; 
+}
+
+fieldset{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 300px;
+    padding-left: 20px;
+    
+}
+legend{
+    margin-left:-10px ;
+   border: 1px solid dodgerblue;
+   padding:10px;
+   text-align: center;
+   background-color: dodgerblue;
+   border-radius: 8px;
+   color: white;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+  }
+  
+  .label-float input{
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance:none;
+    border-radius:0;
+  }
+  
+  .label-float input:focus{
+    border-bottom: 2px solid #3951b2;
+  }
+  
+  .label-float input::placeholder{
+    color:transparent;
+  }
+  
+  .label-float label{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+  }
+  
+
+  .label-float input:focus + label,
+  .label-float input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #3951b2;
+  }
+
+  #submit{
+    margin-left: 130px;
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    margin-top: -20px;
+    margin-left: 150px;
+    transition: 0.5s;
+    border-radius:12px;
+  }
+
+  #submit:hover{
+   background-color: dodgerblue;
+    color: white;
+  }
+
+  #btn-fechar{
+   margin-left: 380px;
+   margin-bottom: -20px;
+   cursor: pointer;
+  }
+
+  #cadastro_livro{
+    height: 560px;
+  }
+
+  #cadastro_editora{
+    height: 400px;
+  }
+
+  #cadastro_aluguel{
+    height: 560px;
+  }
+
+  

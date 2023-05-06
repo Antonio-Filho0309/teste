@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <title>Cadastro de Editora</title>
+</head>
+<body>
+    <body>
+        <div id="vis-modal" class="modal">
+            <br><br><br><br><br><br>
+            <div class="box" id="cadastro_aluguel">
+                <img src="../img/botao-x.png" alt="Fechar" id="btn-fechar" onclick="fecharModal('vis-modal')">
+                <br>
+                <form action="">
+                    <fieldset>
+                        <legend><b>Aluguel de Livro</b></legend>
+                        <br>
+                        <div class="label-float">
+                            <input type="text" name="nomeeditora" id="nomeeditora" class="inputUser"  placeholder=" " required>
+                            <label for="nomeeditora" class="labelInput">Nome do Usúario</label>
+                        </div>
+                        <br><br>
+                        <div class="label-float">
+                            <input type="text" name="email" id="email" class="inputUser" placeholder=" " required>
+                            <label for="email" class="labelInput">Livro</label>
+                        </div>
+                        <br><br>
+                        <div class="label-float">
+                            <input type="date" name="dataal" id="dataal" class="inputUser" placeholder=" " required>
+                            <label for="dataal" class="labelInput">Data do aluguel</label>
+                        </div>
+                        <br><br>
+                        <div class="label-float">
+                            <input type="date" name="datadevo" id="datadevo" class="inputUser" placeholder=" " required>
+                            <label for="datadevo" class="labelInput">Data de Devolução</label>
+                        </div>
+                        <br>
+                    </fieldset>
+                    <br><br>
+                    <input type="submit" name="submit" id="submit" value="Cadastrar">
+            
+                </form>
+            </div>
+        </div>
+   <script src="../js/modal.js"></script>
+</body>
+</html>

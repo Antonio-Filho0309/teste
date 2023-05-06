@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <title>Cadastro de Livro</title>
+</head>
+<body>
+    <body>
+        <div id="vis-modal" class="modal">
+            <br><br><br><br><br><br>
+            <div class="box" id="cadastro_livro">
+                <img src="../img/botao-x.png" alt="Fechar" id="btn-fechar" onclick="fecharModal('vis-modal')">
+                <br>
+                <form action="">
+                    <fieldset>
+                        <legend><b>Cadastro  de Livro</b></legend>
+                        <br>
+                        <div class="label-float">
+                            <input type="text" name="nome" id="nome" class="inputUser"  placeholder=" " required>
+                            <label for="nome" class="labelInput">Nome completo</label>
+                        </div>
+                        <br><br>
+                        <div class="label-float">
+                            <input type="text" name="autor" id="autor" class="inputUser" placeholder=" " required>
+                            <label for="autor" class="labelInput">Autor</label>
+                        </div>
+                        <br><br>
+                        <div class="label-float">
+                            <input type="text" name="editora" id="editora" class="inputUser" placeholder=" " required>
+                            <label for="editora" class="labelInput">Editora</label>
+                        </div>
+                        <br><br>
+                        <div class="label-float">
+                            <input type="date" name="data" id="data" class="inputUser" placeholder=" " required>
+                            <label for="data" class="labelInput">Data de Lançamento</label>
+                        </div>
+                        <br><br>
+                        <div class="label-float">
+                            <input type="number" name="estoque" id="estoque" class="inputUser" placeholder=" " required>
+                            <label for="estoque" class="labelInput">Estoque</label>
+                        </div>
+                        <br>
+                    </fieldset>
+                    <br><br>
+                    <input type="submit" name="submit" id="submit" value="Cadastrar">
+            
+                </form>
+            </div>
+        </div>
+<script src="../js/modal.js"></script>
+</body>
+</html>
