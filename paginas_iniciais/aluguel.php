@@ -10,6 +10,7 @@ if(isset($_POST['submit'])){
   $nome = $_POST['select_nome'];
   $livro = $_POST['select_livro'];
   $dataal = $_POST['dataal'];
+  $dataprev = $_POST['dataprev'];
   $datadevo = $_POST['datadevo'];
 
   $sqlaluguel="SELECT * FROM  aluguel WHERE nome ='$nome' and livro='$livro'";
@@ -21,7 +22,7 @@ if(isset($_POST['submit'])){
     echo "<script>window.alert('Usúario não pode Alugar o mesmo livro')</script>";
 
 }else{
-  $result = mysqli_query($conexao, "INSERT INTO aluguel(nome,livro,dataal,datadevo) VALUES ('$nome','$livro','$dataal','$datadevo')");
+  $result = mysqli_query($conexao, "INSERT INTO aluguel(nome,livro,dataal,dataprev,datadevo) VALUES ('$nome','$livro','$dataal','$dataprev','$datadevo')");
   
 }
 
@@ -140,10 +141,13 @@ $result = $conexao -> query($sql);
                         </div>
                         <br><br>
                         <div class="label-float">
-                            <input type="date" name="datadevo" id="datadevo" class="inputUser" placeholder=" " required>
+                            <input type="date" name="dataprev" id="dataprev" value="0">
+                        </div>
+                        <br><br>
+                        <div class="label-float">
+                            <input type="date" name="dataprev" id="dataprev" class="inputUser" placeholder=" " required>
                             <label for="datadevo" class="labelInput">Data de Devolução</label>
                         </div>
-                        <br>
                     </fieldset>
                     <br><br>
                     <input type="submit" name="submit" id="submit" value="Cadastrar">
@@ -179,6 +183,7 @@ $result = $conexao -> query($sql);
                 <th scope="col">Nome</th>
                 <th scope="col">Livro</th>
                 <th scope="col">Data de Aluguel</th>
+                <th scope="col">Data de Previsão</th>
                 <th scope="col">Data de Devolução</th>
                 <th scope="col">...</th>
               </tr>
