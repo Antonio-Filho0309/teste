@@ -11,8 +11,8 @@
 
   include_once('../php/config.php');
 
-  $sqllivro="SELECT livro, count(livro)
-  FROM aluguel WHERE ";
+  $sqllivro="SELECT livro 
+  FROM aluguel ORDER BY livro ASC";
 
   $resultadoLivro=$conexao->query($sqllivro);
 
@@ -72,13 +72,9 @@
         <main>
           <?php 
             echo "<h1>&nbsp; Olá, $logado!</h1>";
-            while($livro_data = mysqli_fetch_assoc($resultadoLivro)){
-                if(mysqli_num_rows($resultadoLivro)>=3){
-              echo "<p>".$livro_data['livro']."</p>";
-                }else{
-                  echo "<p> deu ruim </p>";
-                }
 
+            while($livro_data=mysqli_fetch_assoc($resultadoLivro)){
+              echo "<p>".$livro_data['livro']."</p>";
             }
           ?>
           <br>
